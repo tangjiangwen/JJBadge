@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6B383281D339EBE00B90472 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B383271D339EBE00B90472 /* main.m */; };
+		E6B3832B1D339EBE00B90472 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B3832A1D339EBE00B90472 /* AppDelegate.m */; };
+		E6B3832E1D339EBE00B90472 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B3832D1D339EBE00B90472 /* ViewController.m */; };
+		E6B383311D339EBE00B90472 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6B3832F1D339EBE00B90472 /* Main.storyboard */; };
+		E6B383331D339EBE00B90472 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6B383321D339EBE00B90472 /* Assets.xcassets */; };
+		E6B383361D339EBE00B90472 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6B383341D339EBE00B90472 /* LaunchScreen.storyboard */; };
+		E6B383411D339EBE00B90472 /* JJBadgeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B383401D339EBE00B90472 /* JJBadgeDemoTests.m */; };
+		E6B3834C1D339EBE00B90472 /* JJBadgeDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B3834B1D339EBE00B90472 /* JJBadgeDemoUITests.m */; };
+		E6DF9DB91D34ADFD00A66050 /* UIView+JJBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DF9DB51D34ADFD00A66050 /* UIView+JJBadge.m */; };
+		E6DF9DBA1D34ADFD00A66050 /* UIView+JJPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DF9DB81D34ADFD00A66050 /* UIView+JJPosition.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6B3833D1D339EBE00B90472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6B3831B1D339EBE00B90472 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6B383221D339EBE00B90472;
+			remoteInfo = JJBadgeDemo;
+		};
+		E6B383481D339EBE00B90472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6B3831B1D339EBE00B90472 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6B383221D339EBE00B90472;
+			remoteInfo = JJBadgeDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E6B383231D339EBE00B90472 /* JJBadgeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJBadgeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6B383271D339EBE00B90472 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E6B383291D339EBE00B90472 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E6B3832A1D339EBE00B90472 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E6B3832C1D339EBE00B90472 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E6B3832D1D339EBE00B90472 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E6B383301D339EBE00B90472 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E6B383321D339EBE00B90472 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6B383351D339EBE00B90472 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E6B383371D339EBE00B90472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6B3833C1D339EBE00B90472 /* JJBadgeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJBadgeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6B383401D339EBE00B90472 /* JJBadgeDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJBadgeDemoTests.m; sourceTree = "<group>"; };
+		E6B383421D339EBE00B90472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6B383471D339EBE00B90472 /* JJBadgeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJBadgeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6B3834B1D339EBE00B90472 /* JJBadgeDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJBadgeDemoUITests.m; sourceTree = "<group>"; };
+		E6B3834D1D339EBE00B90472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6B383611D33A6FC00B90472 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		E6DF9DB41D34ADFD00A66050 /* UIView+JJBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JJBadge.h"; sourceTree = "<group>"; };
+		E6DF9DB51D34ADFD00A66050 /* UIView+JJBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JJBadge.m"; sourceTree = "<group>"; };
+		E6DF9DB71D34ADFD00A66050 /* UIView+JJPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JJPosition.h"; sourceTree = "<group>"; };
+		E6DF9DB81D34ADFD00A66050 /* UIView+JJPosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JJPosition.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6B383201D339EBE00B90472 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6B383391D339EBE00B90472 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6B383441D339EBE00B90472 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6B3831A1D339EBE00B90472 = {
+			isa = PBXGroup;
+			children = (
+				E6DF9DB31D34ADFD00A66050 /* JJBadge */,
+				E6DF9DB61D34ADFD00A66050 /* JJPosition */,
+				E6B383251D339EBE00B90472 /* JJBadgeDemo */,
+				E6B3833F1D339EBE00B90472 /* JJBadgeDemoTests */,
+				E6B3834A1D339EBE00B90472 /* JJBadgeDemoUITests */,
+				E6B383241D339EBE00B90472 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6B383241D339EBE00B90472 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6B383231D339EBE00B90472 /* JJBadgeDemo.app */,
+				E6B3833C1D339EBE00B90472 /* JJBadgeDemoTests.xctest */,
+				E6B383471D339EBE00B90472 /* JJBadgeDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6B383251D339EBE00B90472 /* JJBadgeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E6B383291D339EBE00B90472 /* AppDelegate.h */,
+				E6B3832A1D339EBE00B90472 /* AppDelegate.m */,
+				E6B3832C1D339EBE00B90472 /* ViewController.h */,
+				E6B3832D1D339EBE00B90472 /* ViewController.m */,
+				E6B3832F1D339EBE00B90472 /* Main.storyboard */,
+				E6B383321D339EBE00B90472 /* Assets.xcassets */,
+				E6B383341D339EBE00B90472 /* LaunchScreen.storyboard */,
+				E6B383371D339EBE00B90472 /* Info.plist */,
+				E6B383261D339EBE00B90472 /* Supporting Files */,
+			);
+			path = JJBadgeDemo;
+			sourceTree = "<group>";
+		};
+		E6B383261D339EBE00B90472 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6B383271D339EBE00B90472 /* main.m */,
+				E6B383611D33A6FC00B90472 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E6B3833F1D339EBE00B90472 /* JJBadgeDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E6B383401D339EBE00B90472 /* JJBadgeDemoTests.m */,
+				E6B383421D339EBE00B90472 /* Info.plist */,
+			);
+			path = JJBadgeDemoTests;
+			sourceTree = "<group>";
+		};
+		E6B3834A1D339EBE00B90472 /* JJBadgeDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E6B3834B1D339EBE00B90472 /* JJBadgeDemoUITests.m */,
+				E6B3834D1D339EBE00B90472 /* Info.plist */,
+			);
+			path = JJBadgeDemoUITests;
+			sourceTree = "<group>";
+		};
+		E6DF9DB31D34ADFD00A66050 /* JJBadge */ = {
+			isa = PBXGroup;
+			children = (
+				E6DF9DB41D34ADFD00A66050 /* UIView+JJBadge.h */,
+				E6DF9DB51D34ADFD00A66050 /* UIView+JJBadge.m */,
+			);
+			path = JJBadge;
+			sourceTree = "<group>";
+		};
+		E6DF9DB61D34ADFD00A66050 /* JJPosition */ = {
+			isa = PBXGroup;
+			children = (
+				E6DF9DB71D34ADFD00A66050 /* UIView+JJPosition.h */,
+				E6DF9DB81D34ADFD00A66050 /* UIView+JJPosition.m */,
+			);
+			path = JJPosition;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6B383221D339EBE00B90472 /* JJBadgeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6B383501D339EBE00B90472 /* Build configuration list for PBXNativeTarget "JJBadgeDemo" */;
+			buildPhases = (
+				E6B3831F1D339EBE00B90472 /* Sources */,
+				E6B383201D339EBE00B90472 /* Frameworks */,
+				E6B383211D339EBE00B90472 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JJBadgeDemo;
+			productName = JJBadgeDemo;
+			productReference = E6B383231D339EBE00B90472 /* JJBadgeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E6B3833B1D339EBE00B90472 /* JJBadgeDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6B383531D339EBE00B90472 /* Build configuration list for PBXNativeTarget "JJBadgeDemoTests" */;
+			buildPhases = (
+				E6B383381D339EBE00B90472 /* Sources */,
+				E6B383391D339EBE00B90472 /* Frameworks */,
+				E6B3833A1D339EBE00B90472 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6B3833E1D339EBE00B90472 /* PBXTargetDependency */,
+			);
+			name = JJBadgeDemoTests;
+			productName = JJBadgeDemoTests;
+			productReference = E6B3833C1D339EBE00B90472 /* JJBadgeDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E6B383461D339EBE00B90472 /* JJBadgeDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6B383561D339EBE00B90472 /* Build configuration list for PBXNativeTarget "JJBadgeDemoUITests" */;
+			buildPhases = (
+				E6B383431D339EBE00B90472 /* Sources */,
+				E6B383441D339EBE00B90472 /* Frameworks */,
+				E6B383451D339EBE00B90472 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6B383491D339EBE00B90472 /* PBXTargetDependency */,
+			);
+			name = JJBadgeDemoUITests;
+			productName = JJBadgeDemoUITests;
+			productReference = E6B383471D339EBE00B90472 /* JJBadgeDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6B3831B1D339EBE00B90472 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jiangwen Tang";
+				TargetAttributes = {
+					E6B383221D339EBE00B90472 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					E6B3833B1D339EBE00B90472 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = E6B383221D339EBE00B90472;
+					};
+					E6B383461D339EBE00B90472 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = E6B383221D339EBE00B90472;
+					};
+				};
+			};
+			buildConfigurationList = E6B3831E1D339EBE00B90472 /* Build configuration list for PBXProject "JJBadgeDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6B3831A1D339EBE00B90472;
+			productRefGroup = E6B383241D339EBE00B90472 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6B383221D339EBE00B90472 /* JJBadgeDemo */,
+				E6B3833B1D339EBE00B90472 /* JJBadgeDemoTests */,
+				E6B383461D339EBE00B90472 /* JJBadgeDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6B383211D339EBE00B90472 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6B383361D339EBE00B90472 /* LaunchScreen.storyboard in Resources */,
+				E6B383331D339EBE00B90472 /* Assets.xcassets in Resources */,
+				E6B383311D339EBE00B90472 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6B3833A1D339EBE00B90472 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6B383451D339EBE00B90472 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6B3831F1D339EBE00B90472 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6DF9DBA1D34ADFD00A66050 /* UIView+JJPosition.m in Sources */,
+				E6B3832E1D339EBE00B90472 /* ViewController.m in Sources */,
+				E6B3832B1D339EBE00B90472 /* AppDelegate.m in Sources */,
+				E6DF9DB91D34ADFD00A66050 /* UIView+JJBadge.m in Sources */,
+				E6B383281D339EBE00B90472 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6B383381D339EBE00B90472 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6B383411D339EBE00B90472 /* JJBadgeDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6B383431D339EBE00B90472 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6B3834C1D339EBE00B90472 /* JJBadgeDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6B3833E1D339EBE00B90472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6B383221D339EBE00B90472 /* JJBadgeDemo */;
+			targetProxy = E6B3833D1D339EBE00B90472 /* PBXContainerItemProxy */;
+		};
+		E6B383491D339EBE00B90472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6B383221D339EBE00B90472 /* JJBadgeDemo */;
+			targetProxy = E6B383481D339EBE00B90472 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E6B3832F1D339EBE00B90472 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6B383301D339EBE00B90472 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E6B383341D339EBE00B90472 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6B383351D339EBE00B90472 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6B3834E1D339EBE00B90472 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E6B3834F1D339EBE00B90472 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6B383511D339EBE00B90472 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = JJBadgeDemo/PrefixHeader.pch;
+				INFOPLIST_FILE = JJBadgeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				New_Setting = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tangjiangwen.JJBadgeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E6B383521D339EBE00B90472 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = JJBadgeDemo/PrefixHeader.pch;
+				INFOPLIST_FILE = JJBadgeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				New_Setting = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tangjiangwen.JJBadgeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E6B383541D339EBE00B90472 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JJBadgeDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tangjiangwen.JJBadgeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JJBadgeDemo.app/JJBadgeDemo";
+			};
+			name = Debug;
+		};
+		E6B383551D339EBE00B90472 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JJBadgeDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tangjiangwen.JJBadgeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JJBadgeDemo.app/JJBadgeDemo";
+			};
+			name = Release;
+		};
+		E6B383571D339EBE00B90472 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JJBadgeDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tangjiangwen.JJBadgeDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JJBadgeDemo;
+			};
+			name = Debug;
+		};
+		E6B383581D339EBE00B90472 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JJBadgeDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tangjiangwen.JJBadgeDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JJBadgeDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6B3831E1D339EBE00B90472 /* Build configuration list for PBXProject "JJBadgeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6B3834E1D339EBE00B90472 /* Debug */,
+				E6B3834F1D339EBE00B90472 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6B383501D339EBE00B90472 /* Build configuration list for PBXNativeTarget "JJBadgeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6B383511D339EBE00B90472 /* Debug */,
+				E6B383521D339EBE00B90472 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6B383531D339EBE00B90472 /* Build configuration list for PBXNativeTarget "JJBadgeDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6B383541D339EBE00B90472 /* Debug */,
+				E6B383551D339EBE00B90472 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6B383561D339EBE00B90472 /* Build configuration list for PBXNativeTarget "JJBadgeDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6B383571D339EBE00B90472 /* Debug */,
+				E6B383581D339EBE00B90472 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6B3831B1D339EBE00B90472 /* Project object */;
+}

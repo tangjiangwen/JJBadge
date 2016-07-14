@@ -1,0 +1,11 @@
+//
+//  PrefixHeader.pch
+//  JJBadgeDemo
+//
+//  Created by Jiangwen Tang on 16/7/11.
+//  Copyright © 2016年 Jiangwen Tang. All rights reserved.
+//
+
+#ifdef __OBJC__
+#import "UIView+JJPosition.h"
+#endif
